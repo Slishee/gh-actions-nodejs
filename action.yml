@@ -1,0 +1,9 @@
+name: NodeJS Action
+description: Runs NodeJS inside Github-Actions
+author: Rakibul Yeasin
+branding:
+  icon: 'box'
+  color: 'green'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
